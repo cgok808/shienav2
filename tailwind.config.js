@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         "qPink": "#dca69c",
         "qWhite": "#fdf9ee",
-        "qBlack": "#242025"
+        "qBlack": "#242025",
+        "qBrown": "#322431"
       },
     },
   },
