@@ -10,11 +10,11 @@ import {
   FaCommentAlt,
 } from "react-icons/fa";
 
-const SidebarLink = ({ icon, label }) => {
+const SidebarLink = ({ icon, linkName }) => {
   return (
     <div className='flex font-bold transition-all ease-linear duration-300 pb-2 text-2xl hover:text-qWhite'>
       <span className='mt-1'>{icon}</span>
-      <span className='ml-5 cursor-pointer hidden lg:block'>{label}</span>
+      <span className='ml-5 cursor-pointer hidden lg:block'>{linkName}</span>
     </div>
   );
 };
@@ -27,13 +27,13 @@ const Sidebar = () => {
         <div className='w-1/2 h-3 rounded-sm bg-qBlack border-2 border-qPink hidden lg:block'></div>
       </div>
       <div>
-        <SidebarLink icon={<FaHome />} label={"home"} />
-        <SidebarLink icon={<FaSuitcase />} label={"services"} />
-        <SidebarLink icon={<FaVolumeUp />} label={"demos"} />
-        <SidebarLink icon={<FaMicrophone />} label={"studio"} />
-        <SidebarLink icon={<FaImages />} label={"roles"} />
-        <SidebarLink icon={<FaStar />} label={"reviews"} />
-        <SidebarLink icon={<FaCommentAlt />} label={"contact"} />
+        <SidebarLink icon={<FaHome />} linkName={"home"} />
+        <SidebarLink icon={<FaSuitcase />} linkName={"services"} />
+        <SidebarLink icon={<FaVolumeUp />} linkName={"demos"} />
+        <SidebarLink icon={<FaMicrophone />} linkName={"studio"} />
+        <SidebarLink icon={<FaImages />} linkName={"roles"} />
+        <SidebarLink icon={<FaStar />} linkName={"reviews"} />
+        <SidebarLink icon={<FaCommentAlt />} linkName={"contact"} />
       </div>
     </nav>
   );
