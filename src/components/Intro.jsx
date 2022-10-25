@@ -2,24 +2,21 @@ import React from "react";
 
 const Button = ({ buttonName }) => {
   return (
-    <div className='text-center'>
-      <button className='bg-transparent bg-no-repeat cursor-pointer outline-none font-black border-2 border-white p-4 text-2xl rounded-xl text-qWhite box__shadow transition-all duration-300 ease-linear hover:shadow-none hover:transition-all hover:translate-y-1 m-5'>
-        {buttonName}
-      </button>
-    </div>
+    <button className='bg-transparent bg-no-repeat cursor-pointer outline-none font-black border-2 border-white px-6 py-3 text-2xl rounded-xl text-qWhite box__shadow transition-all duration-500 ease-in-out hover:shadow-none hover:transition-all hover:translate-y-1 m-5'>
+      {buttonName}
+    </button>
   );
 };
 
 const Intro = () => {
   return (
-    <section
-      id='home'
-      className='bg-qPink h-screen flex items-center flex-col'
-    >
+    <section id='home' className='bg-qPink h-screen flex flex-col items-center'>
       <div className='pt-80'>
-        <h1 className='font-bold text-6xl text-qWhite'>Hello World!</h1>
+        <h1 className='font-bold text-6xl text-qWhite text-center'>
+          Hello World!
+        </h1>
       </div>
-      <div className="flex mt-4">
+      <div className='flex mt-4'>
         <Button buttonName={"PLAY DEMOS"} />
         <Button buttonName={"CONTACT"} />
       </div>

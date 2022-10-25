@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import SubHeading from "./SubHeading";
 
 const Testimonials = () => {
   return (
-    <section>Testimonials</section>
-  )
-}
+    <section className='bg-[#f6e8de]' id="testimonials">
+      <SubHeading
+        title={"testimonials"}
+        subtitle={"THEY SAY I'M COOL"}
+        color={"text-[#3B2A3A]"}
+      />
+    </section>
+  );
+};
 
-export default Testimonials
+export default Testimonials;

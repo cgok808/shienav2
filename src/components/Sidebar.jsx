@@ -12,7 +12,7 @@ import {
 
 const SidebarLink = ({ icon, linkName }) => {
   return (
-    <div className='flex font-bold transition-all ease-linear duration-300 pb-2 text-2xl hover:text-qWhite'>
+    <div className='flex font-bold transition-all ease-in-out duration-300 pb-2 text-2xl hover:text-qWhite'>
       <span className='mt-1'>{icon}</span>
       <span className='ml-5 cursor-pointer hidden lg:block'>{linkName}</span>
     </div>
@@ -21,9 +21,11 @@ const SidebarLink = ({ icon, linkName }) => {
 
 const Sidebar = () => {
   return (
-    <nav className='h-full fixed top-0 left-0 bg-qBlack overflow-x-hidden pt-5 flex flex-col items-center text-qPink transition-all duration-300 w-0 md:w-32 lg:w-60 ease-linear'>
-      <h1 className='lg:text-5xl font-bold mt-10 text-3xl transition-all duration-300 ease-linear'>AHR</h1>
-      <div className='h-3 lg:w-24 rounded-sm mt-2 mb-5 bg-qPink transition-all duration-300 ease-linear w-1/2'>
+    <nav className='h-full fixed top-0 left-0 bg-qBlack overflow-x-hidden pt-5 flex flex-col items-center text-qPink transition-all duration-300 w-0 md:w-32 lg:w-60 ease-in-out'>
+      <h1 className='lg:text-5xl font-bold mt-10 text-3xl transition-all duration-300 ease-in-out'>
+        AHR
+      </h1>
+      <div className='h-3 lg:w-24 rounded-sm mt-2 mb-5 bg-qPink transition-all duration-300 ease-in-out w-1/2'>
         <div className='w-1/2 h-3 rounded-sm bg-qBlack border-2 border-qPink hidden lg:block'></div>
       </div>
       <div>
