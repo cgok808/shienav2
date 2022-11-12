@@ -69,8 +69,37 @@ section {
   border: 4px solid #242025;
 }
 
-/** INTRO BUTTON */
+/* INTRO BUTTON */
 
 .box__shadow {
   box-shadow: 0 4px 0 0 #fdf9ee;
+}
+
+/* SUBTITLE HOVER */
+.subtitle__hover {
+  position: relative;
+  color: #322431;
+}
+
+.subtitle__hover:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  height: 1px;
+  width: 0;
+  right: 0;
+  transition: all 300ms ease;
+  background-color: #fff;
+}
+
+.subtitle__hover:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+
+/* TRANSITION 300MS EASE */
+
+.transition__ease {
+  transition: all 300ms ease;
 }

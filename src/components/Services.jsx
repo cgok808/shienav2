@@ -8,16 +8,19 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ServiceCard = ({ title, subtitle, img, alt }) => {
   return (
-    <div className='h-72 w-96 bg-qWhite rounded-3xl transition-all ease-in-out duration-300 flex flex-col items-center hover:bg-qBrown hover:transition-all hover:ease-in-out hover:duration-300 m-4'>
+    <div className='h-72 w-96 bg-qWhite rounded-3xl transition__ease flex flex-col items-center hover:bg-qBrown hover:transition__ease m-4 group'>
       <div className='h-32 w-32 rounded-full bg-[#efb8b3] relative top-14 flex items-center justify-center'>
         <img src={img} alt={alt} className='w-9/12' />
       </div>
-      <h1 className='font-extrabold flex justify-center items-center text-3xl relative top-16 text-qBrown transition-all ease-in-out duration-300'>
+      <h1 className='font-extrabold flex justify-center items-center text-3xl relative top-16 text-qBrown transition__ease group-hover:text-qWhite'>
         {title}
       </h1>
-      <span className='flex content-center items-center relative top-16 transition-all duration-300 ease-in-out'>
-        {subtitle} <MdKeyboardArrowRight />
-      </span>
+      <a className='flex items-center relative top-16 cursor-pointer subtitle__hover transition__ease group-hover:text-qWhite text-md'>
+        {subtitle}
+        <span className='text-md relative top-px'>
+          <MdKeyboardArrowRight />
+        </span>
+      </a>
     </div>
   );
 };
@@ -30,14 +33,10 @@ const Services = () => {
         color={"text-qBrown"}
         subtitle={"WHAT I CAN DO"}
       />
-      <div className='lg:flex-row flex flex-col items-center justify-center mt-16'>
-        <ServiceCard title={"test"} subtitle={"test"} img={SingingIcon} />
-        <ServiceCard title={"test"} subtitle={"test"} img={EditingIcon} />
-        <ServiceCard title={"test"} subtitle={"test"} img={VoiceOverIcon} />
-      </div>
-      <div className='lg:flex-row flex flex-col items-center justify-center'>
-        <ServiceCard title={"test"} subtitle={"test"} img={SingingIcon} />
-        <ServiceCard title={"test"} subtitle={"test"} img={VoiceOverIcon} />
+      <div className='lg:flex-row flex flex-col items-center justify-center lg:mb-0 mt-16 mb-16'>
+        <ServiceCard title={"singing"} subtitle={"hear cool jams"} img={SingingIcon} />
+        <ServiceCard title={"editing"} subtitle={"oooh shiny demos"} img={EditingIcon} />
+        <ServiceCard title={"voiceover"} subtitle={"editing"} img={VoiceOverIcon} />
       </div>
     </section>
   );
