@@ -54,7 +54,7 @@ const Sidebar = () => {
         <SidebarLink
           icon={<FaImages />}
           linkName={"roles"}
-          hrefTo={"#"}
+          hrefTo={"#featured_roles"}
         />
         <SidebarLink
           icon={<FaStar />}

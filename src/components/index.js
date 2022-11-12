@@ -6,4 +6,5 @@ import Services from "./Services";
 import Sidebar from "./Sidebar"
 import Testimonials from "./Testimonials";
 
-export { Contact, Featured, Footer, Intro, Services, Sidebar, Testimonials };
+
+export { Contact, Featured, Footer, Intro, Services, Sidebar, Testimonials};
