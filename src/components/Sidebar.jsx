@@ -13,7 +13,7 @@ import {
 const SidebarLink = ({ icon, linkName, hrefTo }) => {
   return (
     <li className='font-bold pb-2 text-2xl hover:text-qWhite '>
-      <a href={hrefTo} className='flex items-center'>
+      <a href={hrefTo} className='flex items-center transition__ease'>
         <span className='lg:mr-4 text-3xl'>{icon} </span>
         <span className="hidden lg:block">{linkName}</span>
       </a>

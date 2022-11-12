@@ -47,6 +47,10 @@ section {
   }
 }
 
+.transition__ease {
+  transition: all 300ms ease;
+}
+
 /** SCROLLBAR **/
 
 * {
@@ -69,13 +73,14 @@ section {
   border: 4px solid #242025;
 }
 
-/* INTRO BUTTON */
+/* INTRO SECTION */
 
 .box__shadow {
   box-shadow: 0 4px 0 0 #fdf9ee;
 }
 
-/* SUBTITLE HOVER */
+/* SERVICES SECTION */
+
 .subtitle__hover {
   position: relative;
   color: #322431;
@@ -97,9 +102,7 @@ section {
   width: 100%;
 }
 
-
-/* TRANSITION 300MS EASE */
-
-.transition__ease {
-  transition: all 300ms ease;
+.card__img-white:hover .img__white {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(24%) saturate(636%)
+    hue-rotate(317deg) brightness(100%) contrast(98%);
 }
