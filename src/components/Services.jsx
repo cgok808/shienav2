@@ -12,11 +12,11 @@ const ServiceCard = ({ title, subtitle, img, alt }) => {
       <div className='h-32 w-32 rounded-full bg-[#efb8b3] relative top-14 flex items-center justify-center'>
         <img src={img} alt={alt} className='w-9/12 img__white' />
       </div>
-      <h1 className='font-extrabold flex justify-center items-center text-3xl relative top-16 text-qBrown transition__ease group-hover:text-qWhite'>
+      <h2 className='font-extrabold flex justify-center items-center text-3xl relative top-16 text-qBrown transition__ease group-hover:text-qWhite'>
         {title}
-      </h1>
+      </h2>
       <a className='flex items-center relative top-16 cursor-pointer subtitle__hover transition__ease group-hover:text-qWhite text-md'>
-        {subtitle}
+        <h3>{subtitle}</h3>
         <span className='text-md relative top-px'>
           <MdKeyboardArrowRight />
         </span>
@@ -46,7 +46,7 @@ const Services = () => {
         />
         <ServiceCard
           title={"voiceover"}
-          subtitle={"editing"}
+          subtitle={"well... dm me"}
           img={VoiceOverIcon}
         />
       </div>

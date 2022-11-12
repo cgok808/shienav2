@@ -24,9 +24,9 @@ const SidebarLink = ({ icon, linkName, hrefTo }) => {
 const Sidebar = () => {
   return (
     <nav className='h-full fixed top-0 left-0 bg-qBlack overflow-x-hidden pt-5 flex flex-col items-center text-qPink w-0 md:w-32 lg:w-60'>
-      <h1 className='lg:text-5xl font-bold mt-10 text-3xl'>
+      <h3 className='lg:text-5xl font-bold mt-10 text-3xl'>
         AHR
-      </h1>
+      </h3>
       <div className='h-3 lg:w-24 rounded-sm mt-2 mb-5 bg-qPink w-1/2'>
         <div className='w-1/2 h-3 rounded-sm bg-qBlack border-2 border-qPink hidden lg:block'></div>
       </div>

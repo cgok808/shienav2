@@ -27,7 +27,7 @@ p {
   font-size: 15px;
 }
 
-section {
+section, footer {
   margin-left: 230px;
   /* Same as the width of the sidebar */
   padding: 0px 10px;
@@ -35,13 +35,13 @@ section {
 }
 
 @media (max-width: 1024px) {
-  section {
+  section, footer {
     margin-left: 128px;
   }
 }
 
 @media (max-width: 768px) {
-  section {
+  section, footer {
     margin: 0;
     padding: 0;
   }

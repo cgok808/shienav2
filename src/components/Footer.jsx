@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
-      
+    <footer className='bg-[#96676C] pt-16 pb-16'>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
