@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaSuitcase,
   FaHome,
-  FaMusic,
   FaVolumeUp,
   FaMicrophone,
   FaImages,

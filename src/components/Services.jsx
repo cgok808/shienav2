@@ -16,7 +16,7 @@ const ServiceCard = ({ title, subtitle, img, alt }) => {
         {title}
       </h2>
       <a className='flex items-center relative top-16 cursor-pointer subtitle__hover transition__ease group-hover:text-qWhite text-md'>
-        <h3>{subtitle}</h3>
+        <h6>{subtitle}</h6>
         <span className='text-md relative top-px'>
           <MdKeyboardArrowRight />
         </span>
@@ -27,27 +27,27 @@ const ServiceCard = ({ title, subtitle, img, alt }) => {
 
 const Services = () => {
   return (
-    <section id='services' className='lg:h-screen items-center bg-qPink'>
+    <section id='services' className='items-center bg-qPink'>
       <SubHeading
         title={"services"}
         color={"text-qBrown"}
         subtitle={"WHAT I CAN DO"}
       />
-      <div className='lg:flex-row flex flex-col items-center justify-center lg:mb-0 mt-16 mb-16'>
+      <div className='lg:flex-row flex flex-col items-center justify-center lg:mb-16 mt-16'>
         <ServiceCard
           title={"singing"}
           subtitle={"hear cool jams"}
           img={SingingIcon}
         />
         <ServiceCard
-          title={"editing"}
+          title={"voiceover"}
           subtitle={"oooh shiny demos"}
-          img={EditingIcon}
+          img={VoiceOverIcon}
         />
         <ServiceCard
-          title={"voiceover"}
+          title={"editing"}
           subtitle={"well... dm me"}
-          img={VoiceOverIcon}
+          img={EditingIcon}
         />
       </div>
     </section>

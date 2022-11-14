@@ -6,7 +6,7 @@ import secondPicBot from "../assets/roles/crc - bg.svg";
 
 const Featured = () => {
   return (
-    <section className='bg-[#ecc3bb] h-screen' id='featured_roles'>
+    <section className='bg-[#ecc3bb]' id='featured_roles'>
       <SubHeading
         title={"featured roles"}
         subtitle={"THE SPECS"}

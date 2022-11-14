@@ -10,7 +10,7 @@ const Button = ({ buttonName }) => {
 
 const Intro = () => {
   return (
-    <section id='home' className='bg-qPink h-screen flex flex-col items-center'>
+    <section id='home' className='bg-qBlack h-screen flex flex-col items-center'>
       <div className='pt-80'>
         <h1 className='font-bold text-6xl text-qWhite text-center'>
           Hello World!
