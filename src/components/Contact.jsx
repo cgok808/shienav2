@@ -37,10 +37,7 @@ const Contact = () => {
         </div>
       </form>
       <div className='flex justify-center'>
-        <button className='bg-[#B58C90] p-5 mb-36 rounded-xl w-[40%] font-extrabold text-2xl text-qWhite hover:bg-[#b99ea1] transition__ease flex items-center justify-center'>
-          <AiOutlineMail className="mr-3" />
-         <span className="hidden md:block">send ur shit</span>
-        </button>
+    
       </div>
     </section>
   );
