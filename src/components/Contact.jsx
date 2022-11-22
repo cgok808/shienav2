@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import SubHeading from "./SubHeading";
 import { AiOutlineMail } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
+import Button from "./Button";
 
 const Contact = () => {
   const form = useRef();
@@ -68,9 +69,12 @@ const Contact = () => {
           />
         </div>
         <div className='flex justify-center pt-10'>
-          <button type='submit' form='form' value='Submit'>
-            send message
-          </button>
+          <Button
+            type='submit'
+            form='form'
+            value='Submit'
+            buttonName={<AiOutlineMail />}
+          />
         </div>
       </form>
     </section>

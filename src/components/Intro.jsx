@@ -1,19 +1,12 @@
 import React from "react";
-
-const Button = ({ buttonName }) => {
-  return (
-    <button className='bg-transparent bg-no-repeat cursor-pointer outline-none font-black border-2 border-white px-6 py-3 text-2xl rounded-xl text-qWhite box__shadow transition__ease hover:shadow-none hover:transition-all hover:translate-y-1 m-5'>
-      {buttonName}
-    </button>
-  );
-};
+import Button from "./Button";
 
 const Intro = () => {
   return (
     <section id='home' className='bg-qBlack h-screen flex flex-col items-center'>
       <div className='pt-80'>
         <h1 className='font-bold text-6xl text-qWhite text-center'>
-          Hello World!
+          Hello everybody!
         </h1>
       </div>
       <div className='flex mt-4'>
