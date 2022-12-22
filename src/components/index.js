@@ -6,6 +6,7 @@ import Services from "./Services";
 import Sidebar from "./Sidebar";
 import Testimonials from "./Testimonials";
 import Button from "./Button";
+import Studio from "./Studio";
 
 export {
   Contact,
@@ -16,4 +17,5 @@ export {
   Sidebar,
   Testimonials,
   Button,
+  Studio,
 };

@@ -48,7 +48,7 @@ const Sidebar = () => {
         <SidebarLink
           icon={<FaMicrophone />}
           linkName={"studio"}
-          hrefTo={"#"}
+          hrefTo={"#studio"}
         />
         <SidebarLink
           icon={<FaImages />}

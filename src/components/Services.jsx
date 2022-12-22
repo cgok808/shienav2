@@ -27,7 +27,7 @@ const ServiceCard = ({ title, subtitle, img, alt }) => {
 
 const Services = () => {
   return (
-    <section id='services' className='items-center bg-qPink'>
+    <section id='services' className='bg-qPink'>
       <SubHeading
         title={"services"}
         color={"text-qBrown"}
@@ -38,16 +38,19 @@ const Services = () => {
           title={"singing"}
           subtitle={"hear cool jams"}
           img={SingingIcon}
+          alt={"singing"}
         />
         <ServiceCard
           title={"voiceover"}
           subtitle={"oooh shiny demos"}
           img={VoiceOverIcon}
+          alt={"voiceover"}
         />
         <ServiceCard
           title={"editing"}
           subtitle={"well... dm me"}
           img={EditingIcon}
+          alt={"editing"}
         />
       </div>
     </section>

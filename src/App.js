@@ -5,6 +5,7 @@ import {
   Intro,
   Services,
   Sidebar,
+  Studio,
   Testimonials,
 } from "./components";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -15,6 +16,7 @@ function App() {
       <Sidebar />
       <Intro />
       <Services />
+      <Studio />
       <Featured />
       <Testimonials />
       <Contact />

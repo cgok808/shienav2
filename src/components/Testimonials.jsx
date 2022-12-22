@@ -50,7 +50,7 @@ const Testimonials = () => {
           <BsArrowLeftSquareFill
             onClick={prevPerson}
             className={`${
-              color ? "text-[#664A58]" : "text-[#E8CCB9]"
+              color ? "text-[#322431]" : "text-[#DAB19E]"
             } w-16 h-16 relative right-20 md:right-24 lg:right-28 transition__ease hover:scale-110 active:scale-90`}
           />
           <p
@@ -63,7 +63,7 @@ const Testimonials = () => {
           <BsArrowRightSquareFill
             onClick={nextPerson}
             className={`${
-              color ? "text-[#664A58]" : "text-[#E8CCB9]"
+              color ? "text-[#322431]" : "text-[#DAB19E]"
             } w-16 h-16 relative left-20 md:left-24 lg:left-28 transition__ease hover:scale-110 active:scale-90`}
           />
         </div>
