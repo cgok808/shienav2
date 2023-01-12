@@ -65,7 +65,7 @@ const Contact = () => {
             name='message'
             type='text'
             placeholder='Message &#13; &#10;ex. Hello there, I am someone who would love to inquire about comissioning you to have your super hot cool voice be featured in my project!'
-            className='w-[90%] p-5 pb-28 bg-qWhite rounded-xl mt-3 overflow-hidden'
+            className='w-[90%] p-5 pb-40 bg-qWhite rounded-xl mt-3 overflow-hidden'
           />
         </div>
         <div className='flex justify-center pt-10'>

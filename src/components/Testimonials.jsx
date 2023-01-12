@@ -45,13 +45,13 @@ const Testimonials = () => {
         <div
           className={`h-80 w-1/2 ${
             color ? "bg-[#664A58]" : "bg-[#E8CCB9]"
-          } rounded-2xl flex justify-center items-center transition__ease`}
+          } rounded-2xl flex justify-center items-center transition__ease `}
         >
           <BsArrowLeftSquareFill
             onClick={prevPerson}
             className={`${
               color ? "text-[#322431]" : "text-[#DAB19E]"
-            } w-16 h-16 relative right-20 md:right-24 lg:right-28 transition__ease hover:scale-110 active:scale-90`}
+            } w-20 lg:w-16 h-20 lg:h-16 relative right-20 md:right-24 lg:right-28 transition__ease hover:scale-110 active:scale-90`}
           />
           <p
             className={`${
@@ -64,7 +64,7 @@ const Testimonials = () => {
             onClick={nextPerson}
             className={`${
               color ? "text-[#322431]" : "text-[#DAB19E]"
-            } w-16 h-16 relative left-20 md:left-24 lg:left-28 transition__ease hover:scale-110 active:scale-90`}
+            } w-20 lg:w-16 h-20 lg:h-16 relative left-20 md:left-24 lg:left-28 transition__ease hover:scale-110 active:scale-90`}
           />
         </div>
         <div

@@ -27,21 +27,31 @@ p {
   font-size: 15px;
 }
 
-section, footer {
-  margin-left: 230px;
+section,
+footer {
+  /* margin-left: 230px; */
   /* Same as the width of the sidebar */
   padding: 0px 10px;
   overflow-x: hidden;
 }
 
-@media (max-width: 1024px) {
-  section, footer {
+@media (max-width: 1280px) {
+  section,
+  footer {
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 912px) {
+  section,
+  footer {
     margin-left: 128px;
   }
 }
 
-@media (max-width: 768px) {
-  section, footer {
+@media (max-width: 767px) {
+  section,
+  footer {
     margin: 0;
     padding: 0;
   }
