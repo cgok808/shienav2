@@ -33,16 +33,10 @@ footer {
   /* Same as the width of the sidebar */
   padding: 0px 10px;
   overflow-x: hidden;
+  margin-left: 240px;
 }
 
-@media (max-width: 1280px) {
-  section,
-  footer {
-    margin-left: 240px;
-  }
-}
-
-@media (max-width: 912px) {
+@media (max-width: 1021px) {
   section,
   footer {
     margin-left: 128px;
@@ -116,3 +110,4 @@ footer {
   filter: brightness(0) saturate(100%) invert(100%) sepia(24%) saturate(636%)
     hue-rotate(317deg) brightness(100%) contrast(98%);
 }
+
