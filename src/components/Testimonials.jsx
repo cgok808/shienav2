@@ -50,7 +50,7 @@ const Testimonials = () => {
           <div
             className={`${
               color ? "text-qWhite" : "text-qBlack"
-            } flex justify-center items-center text-center w-[90%] md:w-[80%] h-full text-sm lg:text-base text-ellipsis overflow-hidden`}
+            } flex justify-center items-center text-center w-[90%] md:w-[80%] h-full text-base lg:text-lg`}
           >
             {description}
           </div>

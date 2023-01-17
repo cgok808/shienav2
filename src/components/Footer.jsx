@@ -6,9 +6,11 @@ const Footer = () => {
       <div className='lg:w-[30%]'>
         <div className='mb-3 lg:mb-0'>
           <h1 className='font-extrabold text-3xl'>contact</h1>
-          <ul className="text-lg">
+          <ul className='text-lg'>
             <li>
-              <a><strong>email:</strong> shishishiena@gmail.com</a>
+              <a>
+                <strong>email:</strong> shishishiena@gmail.com
+              </a>
             </li>
             <li>
               <strong>twitter:</strong> @shishishiena
@@ -22,7 +24,7 @@ const Footer = () => {
       <div className='lg:w-[30%]'>
         <div className='mb-3 lg:mb-0'>
           <h1 className='font-extrabold text-3xl'>resumes</h1>
-          <ul className="text-lg">
+          <ul className='text-lg'>
             <li>voice acting resume</li>
             <li>singing resume</li>
             <li>academic resume</li>
@@ -32,7 +34,7 @@ const Footer = () => {
       <div className='lg:w-[30%] w-[80%]'>
         <div className='mb-3 lg:mb-0 text-lg'>
           <h1 className='font-extrabold text-3xl'>about</h1>
-          <h6>
+          <h6 className='text-lg'>
             i'm just a lil internet gremlim who would like to help bring a
             budget-friendly and accessible voice to your project! wake up and
             hire me please. thank you! :D

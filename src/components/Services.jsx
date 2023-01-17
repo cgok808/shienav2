@@ -8,7 +8,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ServiceCard = ({ title, subtitle, img, alt }) => {
   return (
-    <div className='h-72 w-96 bg-qWhite rounded-3xl transition__ease flex flex-col items-center hover:bg-qBrown hover:transition__ease m-4 group card__img-white'>
+    <div className='h-72 w-80 md:w-96 bg-qWhite rounded-3xl transition__ease flex flex-col items-center hover:bg-qBrown hover:transition__ease m-4 group card__img-white'>
       <div className='h-32 w-32 rounded-full bg-[#efb8b3] relative top-14 flex items-center justify-center'>
         <img src={img} alt={alt} className='w-9/12 img__white' />
       </div>
