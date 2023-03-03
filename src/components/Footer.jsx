@@ -1,4 +1,5 @@
 import React from "react";
+import angel from "../assets/angel.pdf";
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
               <strong>twitter:</strong> @shishishiena
             </li>
             <li>
-              <strong>discord:</strong> @shiena#077
+              <strong>discord:</strong> @shiena#0777
             </li>
           </ul>
         </div>
@@ -25,9 +26,29 @@ const Footer = () => {
         <div className='mb-3 lg:mb-0'>
           <h1 className='font-extrabold text-3xl'>resumes</h1>
           <ul className='text-lg'>
-            <li>voice acting resume</li>
-            <li>singing resume</li>
-            <li>academic resume</li>
+            <li>
+              <a
+                href='https://docs.google.com/document/d/1Sa6qygMo57OxqaPO8gKrBeK9yNFZnh3MoDO1q2H17FU/edit'
+                target='_blank'
+                className='subtitle__hover'
+              >
+                voice acting resume
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://docs.google.com/document/d/1Sa6qygMo57OxqaPO8gKrBeK9yNFZnh3MoDO1q2H17FU/edit#heading=h.ersencf5upcr'
+                target='_blank'
+                className='subtitle__hover'
+              >
+                singing resume
+              </a>
+            </li>
+            <li>
+              <a href={angel} target='_blank' className='subtitle__hover'>
+                academic resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>
