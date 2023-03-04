@@ -1,19 +1,43 @@
 import React, { useState, useEffect } from "react";
 import SubHeading from "./SubHeading";
 import { BsArrowRightSquareFill, BsArrowLeftSquareFill } from "react-icons/bs";
-import reviews from "./data";
 
 const Testimonials = () => {
   const [color, setColor] = useState(true);
   const [index, setIndex] = useState(0);
-  const { name, description } = reviews[index];
+
+  const testimonials = [
+    {
+      id: 1,
+      name: "pewdiepie",
+      description:
+        "Angel is an incredible voice actor! She naield down every line perfectly, adjusted to changes, and communication was excellent. Do yourself and your project a favor and hire her! Also, they learned a few difficult names and words in another language, which is an invaluable skill to have when trying to be authentic to your work.",
+    },
+    {
+      id: 2,
+      name: "mrbeast",
+      description: "angel can suck my ass",
+    },
+    {
+      id: 3,
+      name: "kermit",
+      description: "hello test 2",
+    },
+    {
+      id: 4,
+      name: "bill.",
+      description: "yeppers",
+    },
+  ];
+
+  const { name, description } = testimonials[index];
 
   const checkNumber = (number) => {
-    if (number > reviews.length - 1) {
+    if (number > testimonials.length - 1) {
       return 0;
     }
     if (number < 0) {
-      return reviews.length - 1;
+      return testimonials.length - 1;
     }
     return number;
   };
