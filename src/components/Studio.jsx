@@ -7,19 +7,22 @@ const Accordion = ({ title, content }) => {
   const toggle = () => {
     setOpen(!open);
   };
+
   return (
-    <a className='md:w-[45%] bg-[#F4E2D7] rounded-lg mt-5 pt-3 px-3 pb-2  border-b-black'>
+    <a className='md:w-[45%] bg-[#F4E2D7] rounded-lg mt-5 pt-3 px-3 pb-2 '>
       <div className='flex justify-between items-center'>
-        <div className='font-extrabold text-2xl'>{title}</div>
+        <span className='bg-[qPink] w-10 h-10 '>
+          <div className='font-extrabold text-2xl'>{title}</div>
+        </span>
+
         <button className='font-extrabold text-3xl' onClick={toggle}>
           +
         </button>
       </div>
-
-      <div>
+      <div className='transition-all'>
         {open && (
           <div>
-            <h3>{content}</h3>
+            <h3 className='p-2 transition-all font-extrabold'>{content}</h3>
           </div>
         )}
       </div>
@@ -32,7 +35,7 @@ const Studio = () => {
     {
       id: 1,
       title: "Equipment",
-      content: "Lorem ipsum",
+      content: "main equipment",
     },
     {
       id: 2,
